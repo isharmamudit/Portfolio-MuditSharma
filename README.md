@@ -10,6 +10,24 @@ A hyper-immersive, highly interactive personal portfolio built by a student deve
 
 ---
 
+## 🛠️ Tech Stack
+
+### ⚙️ Core Tech Stack
+* **HTML5:** Semantic architecture with heavy utilization of the `<canvas>` element for the high-performance space engine.
+* **Vanilla CSS3:** Highly advanced CSS implementation without the crutch of libraries like Tailwind or Bootstrap. Uses `mix-blend-mode` (for screen/lighting effects), 3D `transform-style: preserve-3d` (for parallax tilting), dynamic `clip-path` transitions (for scroll unfolding), and SVG filter injection (for the film grain noise overlay).
+* **Vanilla JavaScript (ES6+):** The entire site logic and space engine is built from scratch without frontend frameworks (no React/Vue). It uses high-performance `requestAnimationFrame` game loops for physics calculations, and `IntersectionObserver` APIs for scroll detection.
+
+### 🎥 Animation & 3D Rendering
+* **Three.js:** Used heavily for loading, lighting, and rendering the immersive 3D models and interactive environments in the background and work sections.
+* **GSAP (GreenSock) & ScrollTrigger:** The industry-standard animation library used for complex, timeline-based UI transitions and orchestrating scroll-linked storytelling elements.
+* **Custom Mathematics Engine:** Bespoke JS physics logic calculating vectors, friction, gravity wells, and collision detection for the interactive particle galaxy.
+
+### 🚀 Deployment & Version Control
+* **Git & GitHub:** Source code management and version tracking.
+* **Vercel:** CI/CD pipeline and Edge Network hosting, ensuring the heavy graphics load instantly worldwide.
+
+---
+
 ## ✨ Key Technical Features
 
 ### 1. Custom 2D Particle Space Engine (`<canvas>`)
