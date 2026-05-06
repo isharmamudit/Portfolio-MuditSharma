@@ -1,5 +1,5 @@
 {
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" }
-  ]
+  "buildCommand": "echo 'Deploying as static site'",
+  "outputDirectory": ".",
+  "framework": null
 }
