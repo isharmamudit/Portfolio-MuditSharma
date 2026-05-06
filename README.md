@@ -1,46 +1,57 @@
-# 🚀 3D Animated Portfolio - Frontend Showcase
+# 🌌 Mudit Sharma's 3D Interactive Portfolio
 
-A visually immersive and interactive **personal portfolio website frontend**, designed to showcase projects and skills through a dynamic 3D experience. This project leverages advanced animation libraries to create an engaging user journey.
+A hyper-immersive, highly interactive personal portfolio built by a 16-year-old developer to push the limits of frontend web design. This project focuses on a seamless, cinematic user experience powered by a custom vanilla JavaScript space engine and cutting-edge DOM interactions.
 
 ---
 
 ## 🔗 Links
-- 🌐 **Live Demo:** [your-live-demo-url.com](https://yash-chauhan.vercel.app)]
-- 👨‍💻 **Author's Portfolio:** [yash-chauhan.vercel.app](https://yash-chauhan.vercel.app )
+- **Live Site:** [Insert Vercel Link Here]
+- **Developer:** [Mudit Sharma](https://github.com/isharmamudit)
 
 ---
 
-## ⚙️ Core Technologies & Libraries
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
-- **GSAP (GreenSock Animation Platform):** The core engine for all high-performance animations.
-- **ScrollTrigger:** A GSAP plugin used to create scroll-based animations and interactions.
-- **Three.js / Spline / or other 3D library:** The library used to render and manipulate the 3D models.
+## ✨ Key Technical Features
+
+### 1. Custom 2D Particle Space Engine (`<canvas>`)
+- **Black Hole Gravity Physics:** Clicking and holding inside the galaxy section dynamically manipulates the velocity vectors of particles, pulling them into a swirling gravitational well.
+- **Repulsion Shockwaves:** Releasing the click triggers a shockwave ripple that mathematically calculates proximity and forcefully repels particles outward.
+- **Dynamic Constellations:** Proximity-based line drawing between "stars" that responds directly to cursor distance and interaction state.
+- **Shooting Stars:** A lightweight rendering layer that adds high-velocity streak assets to the background array.
+
+### 2. High-End Micro-Interactions & UI
+- **Pill-Style Magnetic Buttons:** Call-to-action buttons feature custom logic that tracks the cursor bounding box and applies a 3D magnetic "pull", alongside a smooth color-inverting icon container.
+- **Intersection Observer Animations:** Content dynamically unfurls on scroll using high-performance CSS `clip-path` transitions to prevent DOM layout thrashing.
+- **3D Parallax Typography:** Text shadows and 3D tilting calculate positional vectors from the center of the viewport to create physical depth tracking.
+
+### 3. Core Technologies & Architecture
+- **HTML5 & CSS3:** Completely vanilla and modular. No tailwind, no heavy CSS frameworks. 
+- **Vanilla JavaScript (ES6+):** Pure, optimized `requestAnimationFrame` game-loop logic.
+- **Three.js:** Handles complex 3D object rendering in dedicated scenes.
+- **Cinematic Rendering:** Uses SVG noise overlays and CSS mix-blend-modes to create an authentic film grain texture across the viewport.
 
 ---
 
-## ✨ Key Features
-- 🎞️ **Scroll-Based 3D Animations:** As the user scrolls, 3D models and scenes animate, creating a cinematic storytelling experience.
-- 🎭 **Complex Animation Timelines:** Utilizes GSAP to orchestrate intricate sequences and interactions with precision.
-- 📱 **Responsive & Performant:** Carefully optimized to ensure smooth animations and a consistent experience across various devices and screen sizes.
-- 🎨 **Modern UI/UX:** A clean and intuitive interface that complements the sophisticated 3D visuals.
+## 🚀 Local Development
 
----
+Since this project avoids heavy frameworks and uses pure HTML/JS/CSS, launching it locally is incredibly fast.
 
-## 🎯 Project Goal
-The primary goal of this project was to master and implement advanced frontend animation techniques using **GSAP and ScrollTrigger**. It serves as a powerful demonstration of how to integrate complex 3D elements and scroll-based storytelling into a modern web experience.
-
----
-
-## ⚠️ Asset Disclaimer
-Please note that the 3D models used in this project were **purchased from a third-party marketplace**. The focus of this work was on the frontend development, animation, and integration of these assets, not on 3D modeling itself.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/isharmamudit/Portfolio-MuditSharma.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Portfolio-MuditSharma
+   ```
+3. Use any local server to run the project. For example, if you have `npx` installed:
+   ```bash
+   npx serve .
+   ```
+4. Open `http://localhost:3000` in your browser.
 
 ---
 
 ## 👨‍💻 Author
-**Yash Chauhan**
-- GitHub: [@yashchauhan008](https://github.com/Yashchauhan008 )
-- LinkedIn: [yashchauhan](https://www.linkedin.com/in/yashchauhan008 )
 
----
+**Mudit Sharma**
+- GitHub: [@isharmamudit](https://github.com/isharmamudit)
