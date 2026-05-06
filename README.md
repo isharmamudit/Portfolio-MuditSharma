@@ -1,6 +1,6 @@
 # 🌌 Mudit Sharma's 3D Interactive Portfolio
 
-A hyper-immersive, highly interactive personal portfolio built by a 16-year-old developer to push the limits of frontend web design. This project focuses on a seamless, cinematic user experience powered by a custom vanilla JavaScript space engine and cutting-edge DOM interactions.
+A hyper-immersive, highly interactive personal portfolio built by a student developer (inspired by Yash Chauhan's Portfolio) to push the limits of frontend web design. This project focuses on a seamless, cinematic user experience powered by a custom vanilla JavaScript space engine and cutting-edge DOM interactions.
 
 ---
 
@@ -55,3 +55,5 @@ Since this project avoids heavy frameworks and uses pure HTML/JS/CSS, launching 
 
 **Mudit Sharma**
 - GitHub: [@isharmamudit](https://github.com/isharmamudit)
+- InstaGram: [@isharmamudit](https://instagram.com/muditsharma030)
+- LinkedIn: [@isharmamudit](https://linkedin.com/in/muditsharma030)
